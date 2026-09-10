@@ -1,9 +1,12 @@
 # Statin initiation and acute pancreatitis risk — target trial emulation
 
-Analysis scripts for an emulated target trial of **statin initiation versus
-non-initiation** and the short-term risk of acute pancreatitis, conducted
-within the **All of Us Research Program** cohort restricted to individuals
-with hypertriglyceridaemia (HTG).
+R analysis scripts for an emulated target trial comparing **statin
+initiation with no statin initiation** on the **12-month risk of acute
+pancreatitis**, within the **All of Us Research Program** cohort restricted to
+individuals with hypertriglyceridaemia (HTG). The design uses a 180-day
+landmark to remove immortal-time bias, entropy balancing for confounding,
+MICE for missing data, and a weighted discrete-time survival model with
+all-cause death as a competing risk.
 
 > **Data access.** This repository contains **code only**. The All of Us data
 > used (including the frozen cohort, multiple-imputation frames, propensity
