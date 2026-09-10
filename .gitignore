@@ -1,0 +1,20 @@
+# --- All of Us controlled-access data (never commit) ---
+*.rds
+*.RData
+*.csv
+*.txt
+*.log
+*.png
+*.pdf
+*.docx
+
+# Derived analytical outputs
+outputs/
+derived/
+
+# R artifacts
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+.Ruserdata
